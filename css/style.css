@@ -1,5 +1,4 @@
-/* style.css - Part 2 CSS Styling for Desktop and Responsive Design */
-/* Student: Tokelo Tsotetsi */
+
 
 /* 2.2 Base Style + CSS Reset */
 * {
@@ -10,7 +9,7 @@
 
 body {
     background-color: #f8f8f8; /* neutral background */
-    font-family: 'Roboto', sans-serif; /* body font from rubric */
+    font-family: 'Roboto', sans-serif; /* body font from rubric* /
     font-size: 16px; /* body = 16pt from rubric */
     line-height: 1.5; /* 1.5 line height from rubric */
     color: #333;
