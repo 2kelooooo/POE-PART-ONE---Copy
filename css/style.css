@@ -237,3 +237,46 @@ footer {
     max-width: 1200px;
   }
 }
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.product-card {
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 300px; /* forces same height */
+  object-fit: cover; /* crops nicely instead of squashing */
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.product-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #d46a8c;
+  margin-top: 10px;
+  text-transform: lowercase; /* gives that look */
+  letter-spacing: 0.5px;
+}
+.product-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth animation */
+}
+
+.product-card img:hover {
+  transform: scale(1.03); /* slight zoom in */
+  box-shadow: 0 8px 20px rgba(212, 106, 140, 0.2); /* soft pink shadow */
+  cursor: pointer;
+}
