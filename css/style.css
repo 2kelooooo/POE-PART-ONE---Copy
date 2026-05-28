@@ -100,7 +100,9 @@ nav a:active {
 /* Images - responsive */
 img {
   max-width: 70%;
+  max: height 150px;
   height: auto;
+  object-fit: cover;
   border-radius: 8px;
   margin: 15px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -119,11 +121,11 @@ label {
   font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="number"] {
-  width: 70%;
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"] {
+  width: 300%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ddd;
