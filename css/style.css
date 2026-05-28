@@ -1,6 +1,4 @@
 
-
-/* 2.2 Base Style + CSS Reset */
 * {
     margin: 0;
     padding: 0;
@@ -9,14 +7,14 @@
 
 body {
     background-color: #f8f8f8; /* neutral background */
-    font-family: 'Roboto', sans-serif; /* body font from rubric* /
-    font-size: 16px; /* body = 16pt from rubric */
-    line-height: 1.5; /* 1.5 line height from rubric */
+    font-family: 'Roboto', sans-serif; /* body font * /
+    font-size: 16px; 
+    line-height: 1.5; 
     color: #333;
-    text-align: center; /* content centered as per layout approach */
+    text-align: center; /* content centered a */
 }
 
-/* 2.3 Typography Styles */
+/*  Typography Styles */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
 
 h1, h2, h3 {
@@ -26,7 +24,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 2rem; /* 32pt approx = 2rem */
+    font-size: 2rem; 
     line-height: 1.5;
     margin-bottom: 1rem;
 }
@@ -37,7 +35,7 @@ p {
     line-height: 1.5;
 }
 
-/* 2.4 Layout Structure - top to bottom, centered */
+/* Layout Structure - top to bottom, centered */
 .container {
     width: 80%;
     margin: 0 auto; 
@@ -49,10 +47,10 @@ header, section, footer {
     padding: 1.5rem;
 }
 
-/* 2.5 Visual Styles + hover for UX */
+
 .button {
     background-color: pink;
-    color: rgb(106, 105, 105);
+    color: rgb(76, 73, 73);
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 5px;
@@ -74,7 +72,7 @@ header, section, footer {
 
 .product-card {
     width: 30%;
-    background-color: white;
+    background-color: rgb(57, 56, 56);
     border: 1px solid #ddd;
     padding: 1rem;
     border-radius: 8px;
@@ -83,8 +81,8 @@ header, section, footer {
 
 /* 3. Responsive Design */
 
-/* 3.1 Breakpoints + 3.2 Relative Units */
-@media screen and (max-width: 768px) { /* tablet */
+
+@media screen and (max-width: 768px) { 
     .container {
         width: 90%;
     }
@@ -98,14 +96,14 @@ header, section, footer {
     }
 }
 
-@media screen and (max-width: 480px) { /* mobile */
+@media screen and (max-width: 480px) {
     .container {
         width: 95%;
         padding: 1rem;
     }
     
     .product-grid {
-        flex-direction: column; /* single column on mobile */
+        flex-direction: column; 
     }
     
     .product-card {
@@ -113,10 +111,10 @@ header, section, footer {
     }
     
     h2 {
-        font-size: 1.5rem; /* smaller font on mobile */
+        font-size: 1.5rem; 
     }
     
     body {
-        font-size: 0.9rem; /* slightly smaller base font */
+        font-size: 0.9rem; 
     }
 }
