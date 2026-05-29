@@ -21,7 +21,7 @@ body {
 
 /* Layout container for centered content */
 .container {
-  max-width: 100px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -31,6 +31,8 @@ h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #d46a8c; /* pink headings per proposal */
+  text-align: center;
+  text-decoration: none;
   margin-bottom: 15px;
   letter-spacing: 0.5px;
 }
@@ -61,6 +63,7 @@ p, li, label {
 ul {
   list-style: none;
   margin: 20px 0;
+  padding:0 ;
 }
 
 /* Layout Structure */
@@ -74,6 +77,8 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  padding: 8px 12px;
+  transition:  color 0.3s ease;
 }
 
 /*  Visual Styles + Pseudo-classes */
@@ -102,7 +107,8 @@ img {
   max-width: 70%;
   max: height 150px;
   height: auto;
-  object-fit: cover;
+  object-fit: cover
+  ;
   border-radius: 8px;
   margin: 15px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
